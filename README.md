@@ -11,4 +11,4 @@ Each issue is addressed using two projects with the same prefix to reflect the t
 For example:
 
 - `Circular Referencing - Issue`      // Demonstrates the problem  
-- `Circular Referencing - Solution`  // Demonstrates the fix
+- `Circular Referencing - Solution`  // Demonstrates the fix 
