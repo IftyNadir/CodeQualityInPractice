@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circular Referencing", "Circular Referencing\Circular Referencing.csproj", "{B5C9A7F1-B676-4C06-83AF-C8C437C82DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circular Referencing Fix", "Circular Referencing Fix\Circular Referencing Fix.csproj", "{AC0858E3-685E-4AE3-9F8B-3D05136BBE6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5C9A7F1-B676-4C06-83AF-C8C437C82DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C9A7F1-B676-4C06-83AF-C8C437C82DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C9A7F1-B676-4C06-83AF-C8C437C82DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C9A7F1-B676-4C06-83AF-C8C437C82DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0858E3-685E-4AE3-9F8B-3D05136BBE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0858E3-685E-4AE3-9F8B-3D05136BBE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0858E3-685E-4AE3-9F8B-3D05136BBE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0858E3-685E-4AE3-9F8B-3D05136BBE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

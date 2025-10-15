@@ -1,0 +1,97 @@
+# ============================
+#  Visual Studio & .NET ignore
+# ============================
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+[Tt]mp/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio cache and settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build intermediate files
+*.obj
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.cachefile
+
+# Auto-generated files
+*.tlog
+*.lastbuildstate
+*.log
+*.dll
+*.exe
+*.lib
+*.appx
+*.appxupload
+*.appxrecipe
+*.pfx
+*.publishsettings
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Rider / ReSharper
+.idea/
+*.DotSettings.user
+_ReSharper*/
+_ReSharper.Caches/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.dbmdl
+*.bak
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# ============================
+#  Project specific folders
+# ============================
+
+# Exclude compiled executables or temp folders from C++ & C# projects
+cpp/**/[Bb]in/
+cpp/**/[Oo]bj/
+c#/**/[Bb]in/
+c#/**/[Oo]bj/
+
+# Allow source and solution files
+!*.cpp
+!*.h
+!*.cs
+!*.sln
+!*.vcxproj
+!*.csproj
+!*.config
+!*.json
